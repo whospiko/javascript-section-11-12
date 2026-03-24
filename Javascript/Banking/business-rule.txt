@@ -1,0 +1,8 @@
+Objective:
+You are building the core logic for a new digital bank. You need to write the code that handles customer deposits, withdrawals, and processes a daily batch of transactions.
+
+Rules:
+1. A user cannot deposit a negative amount or zero.
+2. A user cannot withdraw a negative amount or zero.
+3. A user cannot withdraw more money than they currently have in their balance.
+4. You must process an automated list of transactions one by one.
