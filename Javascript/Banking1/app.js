@@ -5,7 +5,8 @@ function deposit(amount) {
     // console.log("deposit", amount);
 
     if(amount < 0){
-        console.log(`Error deposited: you can't deposit the negative balance ${amount}`);
+        console.log(`Error deposited: you can't deposit the negative balance ${amount}, ${amount}`);
+        console.log("Error deposited: you can't deposit the negative balance" + amount + ", " + amount);
         return;
     }
 
@@ -33,7 +34,7 @@ function processBatchTransactions(transactions) {
 
     for (let i = 0; i<transactions.length; i++){
         // console.log(`Transaction ${i} + ${transactions[i].type}`);
-        if(transactions[i].type === "deposit"){
+        if(transactions.type === "deposit"){
             // action
             deposit(transactions[i].amount)
         }
