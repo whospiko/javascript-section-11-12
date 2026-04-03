@@ -47,7 +47,6 @@
 //
 // test.fly()
 
-
 //test.person = "test1"
 //console.log(test.walking)
 //test.walking = "test2"
